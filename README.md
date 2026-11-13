@@ -6,7 +6,7 @@ O projeto faz parte da minha rotina na TI. Tem uma área para o funcionário que
 
 ## Telas do sistema
 
-![Área da TI com mensagem do solicitante, imagem anexada e resposta registrada](docs/imagens/ti/02-conversa-e-atendimento.png)
+![Área da TI com mensagem do solicitante, imagem anexada e resposta registrada](docs/02-conversa-e-atendimento.png)
 
 Na tela de atendimento, a TI consulta a solicitação, responde ao funcionário e gerencia o chamado.
 
