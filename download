@@ -1,0 +1,12 @@
+# Arquivos locais
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Configurações e cópias de trabalho
+.env
+.env.*
+*.bak
+*.backup
+*.log
+backups/

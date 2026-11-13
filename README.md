@@ -4,13 +4,21 @@ Sistema de chamados que desenvolvi para organizar o suporte de TI da SOPAL. A id
 
 O projeto faz parte da minha rotina na TI. Tem uma área para o funcionário que precisa de suporte e outra para administrar os atendimentos.
 
+## Telas do sistema
+
+![Área da TI com mensagem do solicitante, imagem anexada e resposta registrada](docs/imagens/ti/02-conversa-e-atendimento.png)
+
+Na tela de atendimento, a TI consulta a solicitação, responde ao funcionário e gerencia o chamado.
+
+[Ver as telas do solicitante e da TI](docs/telas.md)
+
 ## Como funciona
 
 O funcionário entra com sua conta, informa o problema e pode anexar imagens. Depois, acompanha seus chamados, responde às mensagens da TI e consulta a solução registrada.
 
 No painel da TI, é possível consultar os chamados, pesquisar por informações do atendimento, aplicar filtros, ajustar a prioridade e responder ao solicitante.
 
-O fluxo atual tem três status: **Aberto**, **Em atendimento** e **Concluído**. Ao salvar um chamado como Em atendimento, o sistema vincula o responsável pela conta conectada. Para concluir, é necessário registrar a solução.
+No gerenciamento do atendimento, as opções de alteração de status são **Aberto**, **Em atendimento** e **Concluído**. Ao salvar um chamado como Em atendimento, o sistema vincula o responsável pela conta conectada. Para concluir, é necessário registrar a solução.
 
 ## Recursos implementados
 
@@ -44,6 +52,7 @@ Outro cuidado foi o tratamento de alterações feitas em telas desatualizadas: s
 
 ## Documentação
 
+- [Telas do solicitante e da TI](docs/telas.md)
 - [Arquitetura e organização dos dados](docs/arquitetura.md)
 - [Fluxo de atendimento e permissões](docs/fluxo-de-atendimento.md)
 
@@ -51,4 +60,4 @@ Outro cuidado foi o tratamento de alterações feitas em telas desatualizadas: s
 
 O front-end foi publicado em uma máquina virtual com Ubuntu Server e Nginx. A autenticação, o banco de dados e as imagens ficam no Supabase.
 
-O sistema é de uso interno da empresa, com acesso por contas cadastradas. Este repositório apresenta o projeto para o portfólio; o código utilizado pela empresa é mantido em um repositório privado.
+O sistema é de uso interno da empresa, com acesso por contas cadastradas. Este repositório reúne a apresentação, a documentação e as capturas de tela. A aplicação em uso permanece no ambiente interno.
