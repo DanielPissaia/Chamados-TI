@@ -61,3 +61,8 @@ Outro cuidado foi o tratamento de alterações feitas em telas desatualizadas: s
 O front-end foi publicado em uma máquina virtual com Ubuntu Server e Nginx. A autenticação, o banco de dados e as imagens ficam no Supabase.
 
 O sistema é de uso interno da empresa, com acesso por contas cadastradas. Este repositório reúne a apresentação, a documentação e as capturas de tela. A aplicação em uso permanece no ambiente interno.
+
+## Código principal
+
+- [Fluxo dos chamados em JavaScript](chamados-core.js)
+- [Função de atendimento no PostgreSQL](atendimento.sql)
